@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var config = require('/config');
+var config = require('./config');
 
 mongoose.connect(config.mongoURI, { useNewUrlParser: true, useUnifiedTopology: true },function (err, db) {
     if (err) {

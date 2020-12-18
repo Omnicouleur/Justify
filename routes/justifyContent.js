@@ -8,6 +8,10 @@ router.use(bodyParser.json());
 let User = require('../models/User');
 let VerifyToken = require('./auth/VerifyToken');
 
+router.get('/',function (req,res) {
+        res.status(200).send('Welcome to our application');
+    }
+);
 // justify the text : 80 characters per line
 router.post('/justify', VerifyToken, function(req, res) {
 
