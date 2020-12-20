@@ -1,17 +1,17 @@
-var express = require('express');
-var app = express();
-var db = require('./db');
+const express = require('express');
+const app = express();
+const db = require('./config/db');
 
 app.set('view engine', 'pug');
 app.set('views', './views');
-app.get('/', (req,res) => {
+app.get('/', (req, res) => {
     res.render('index')
 });
 
-var justifyContent = require('./routes/justifyContent');
+const justifyContent = require('./routes/justify-content.controller');
 app.use('/api', justifyContent);
 
-var AuthController = require('./routes/auth/AuthController');
+const AuthController = require('./routes/auth.controller');
 app.use('/api/', AuthController);
 
 module.exports = app;
