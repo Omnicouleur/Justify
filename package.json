@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "start_local": "node -r dotenv/config server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start_local": "nodemon -r dotenv/config server.js",
+    "test": "nyc mocha"
   },
   "keywords": [],
   "author": "Chaari Ahmed",
@@ -16,9 +16,12 @@
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.8",
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.6",
+    "nyc": "^15.1.0",
+    "pug": "^3.0.0"
   },
   "devDependencies": {
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "mocha": "^8.2.1"
   }
 }

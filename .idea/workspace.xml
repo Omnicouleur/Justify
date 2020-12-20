@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8bdd085-4926-4958-8bb7-94fb2e12798f" name="Default Changelist" comment="" />
+    <list default="true" id="b8bdd085-4926-4958-8bb7-94fb2e12798f" name="Default Changelist" comment="* Unit tests Added&#10;* Refactoring&#10;* Readme file Updated">
+      <change afterPath="$PROJECT_DIR$/services/justifyContent.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/justifyContent.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/auth/AuthController.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth/AuthController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/auth/VerifyToken.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth/VerifyToken.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/justifyContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/justifyContent.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +33,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lhRYxqcWSsZLN1e0ROW3wH3vgo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -29,11 +44,12 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$/routes" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/routes" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -48,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.start_local.js">
+  <component name="RunManager" selected="Node.js.Start">
     <configuration name="Start" type="NodeJSConfigurationType" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -72,10 +88,38 @@
       <updated>1608047387834</updated>
       <workItem from="1608047389636" duration="16624000" />
       <workItem from="1608212835474" duration="22288000" />
+      <workItem from="1608421415244" duration="7400000" />
+      <workItem from="1608461849609" duration="3851000" />
     </task>
+    <task id="LOCAL-00001" summary="* Typo fix in db.js">
+      <created>1608326875241</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608326875242</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="* Typo fix in db.js" />
+    <MESSAGE value="* Unit tests Added&#10;* Refactoring&#10;* Readme file Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Unit tests Added&#10;* Refactoring&#10;* Readme file Updated" />
   </component>
 </project>
