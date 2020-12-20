@@ -9,13 +9,13 @@ router.use(bodyParser.json());
 const User = require('../models/User');
 const jwt = require('jsonwebtoken');
 const utils = require('../utils/justify-utils');
-router.post('/token', function (req, res) {
+router.post('/token', (req, res) => {
     if (!utils.validateEmail(req.body.email)) {
         res.status(422).send('Please fill a valid email address');
         return;
     }
     //check if email exists
-    User.findOne({email: req.body.email}, function (err, user) {
+    User.findOne({email: req.body.email}, (err, user) => {
         if (err) return res.status(500).send('Error on the server.');
         if (!user) {
             // if new email => Add to Db + create token
@@ -24,7 +24,7 @@ router.post('/token', function (req, res) {
                     wordCount: 0,
                     firstWord: Date.now(),
                 },
-                function (err, user1) {
+                (err, user1) => {
                     if (err) return res.status(500).send("There was a problem registering the user.", err.message, err);
                     const token = jwt.sign({id: user1._id}, config.secret, {
                         expiresIn: 86400 // expires in 24 hours

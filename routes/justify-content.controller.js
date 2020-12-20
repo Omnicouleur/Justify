@@ -14,9 +14,9 @@ router.get('/', (req, res) => {
 );
 
 // justify the text : 80 characters per line
-router.post('/justify', utils.verifyToken, function (req, res) {
+router.post('/justify', utils.verifyToken, (req, res) => {
 
-    User.findById(req.userId, function (err, user) {
+    User.findById(req.userId, (err, user) => {
         if (err) {
             return res.status(500).send("There was a problem finding the user.")
         }

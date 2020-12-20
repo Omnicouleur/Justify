@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8bdd085-4926-4958-8bb7-94fb2e12798f" name="Default Changelist" comment="* Refactoring">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/justify-utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="b8bdd085-4926-4958-8bb7-94fb2e12798f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/auth/AuthController.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/auth/VerifyToken.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/justifyContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/justify-content.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/justify-content.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/justify-content.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/justifyContent.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/justify-content.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/justifyContent.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/justify-content.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +91,7 @@
       <workItem from="1608461849609" duration="3851000" />
       <workItem from="1608495241257" duration="2234000" />
       <workItem from="1608493916380" duration="4349000" />
-      <workItem from="1608501584893" duration="420000" />
+      <workItem from="1608501584893" duration="932000" />
     </task>
     <task id="LOCAL-00001" summary="* Typo fix in db.js">
       <created>1608326875241</created>
@@ -112,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608326875242</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="* Refactoring">
+      <created>1608502013515</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608502013515</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
